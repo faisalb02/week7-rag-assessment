@@ -1,0 +1,227 @@
+[
+    {
+        "user_input": "How many casual leaves are provided per year?",
+        "retrieved_contexts": [
+            "Employee Benefits Policy\nEmployees receive 12 casual leaves per year.\nEmployees receive 10 sick leaves per year.\nEmployees receive 15 earned leaves per year.\nEmployees are eligible for company medical insurance.\nEmployees receive annual performance reviews.\nEligible employees can receive travel expense reimbursement.\nEmployees can request work from home with manager approval.\n",
+            "Company Leave Policy\n\n1. Employees are eligible for 12 casual leaves per year.\n\n2. Employees are eligible for 10 sick leaves per year.\n\n3. Employees are eligible for 15 earned leaves per year.\n\n4. Leave requests must be submitted to the reporting manager.\n\n5. Employees should apply for planned leave at least 3 days in advance.\n\n6. Unused casual leaves cannot be carried forward to the next year.\n\n7. Sick leave exceeding 2 consecutive days requires a medical certificate.\n",
+            "Company Holiday Policy\n\n1. The company provides 12 public holidays every year.\n\n2. The annual holiday calendar is published by the HR department.\n\n3. Employees are not required to work on official public holidays.\n\n4. If employees work on a public holiday, compensatory leave may be provided.\n\n5. Holiday calendar updates will be communicated through official email.\n\n6. Employees should check the HR portal for the latest holiday schedule.\n\n7. Regional holidays may vary depending on the office loca",
+            " portal for the latest holiday schedule.\n\n7. Regional holidays may vary depending on the office location.\n8."
+        ],
+        "response": "12 casual leaves per year.",
+        "reference": "Employees receive 12 casual leaves per year.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9550111711,
+        "context_precision": 1.0,
+        "context_recall": 1.0
+    },
+    {
+        "user_input": "How many sick leaves are available per year?",
+        "retrieved_contexts": [
+            "Company Leave Policy\n\n1. Employees are eligible for 12 casual leaves per year.\n\n2. Employees are eligible for 10 sick leaves per year.\n\n3. Employees are eligible for 15 earned leaves per year.\n\n4. Leave requests must be submitted to the reporting manager.\n\n5. Employees should apply for planned leave at least 3 days in advance.\n\n6. Unused casual leaves cannot be carried forward to the next year.\n\n7. Sick leave exceeding 2 consecutive days requires a medical certificate.\n",
+            "Employee Benefits Policy\nEmployees receive 12 casual leaves per year.\nEmployees receive 10 sick leaves per year.\nEmployees receive 15 earned leaves per year.\nEmployees are eligible for company medical insurance.\nEmployees receive annual performance reviews.\nEligible employees can receive travel expense reimbursement.\nEmployees can request work from home with manager approval.\n",
+            ". Sick leave exceeding 2 consecutive days requires a medical certificate.\n",
+            "Company Holiday Policy\n\n1. The company provides 12 public holidays every year.\n\n2. The annual holiday calendar is published by the HR department.\n\n3. Employees are not required to work on official public holidays.\n\n4. If employees work on a public holiday, compensatory leave may be provided.\n\n5. Holiday calendar updates will be communicated through official email.\n\n6. Employees should check the HR portal for the latest holiday schedule.\n\n7. Regional holidays may vary depending on the office loca"
+        ],
+        "response": "10 sick leaves per year",
+        "reference": "Employees receive 10 sick leaves per year.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9588108756,
+        "context_precision": 1.0,
+        "context_recall": 1.0
+    },
+    {
+        "user_input": "What are the standard company working hours?",
+        "retrieved_contexts": [
+            "Company Attendance Policy\n\n1. Employees must report to work by 10:00 AM.\n\n2. The standard working hours are 10:00 AM to 6:00 PM.\n\n3. Employees must mark their daily attendance using the company attendance system.\n\n4. Late arrivals must be informed to the reporting manager.\n\n5. Employees must complete their assigned working hours.\n\n6. Attendance corrections must be requested through the HR department.\n\n7. Repeated unauthorized absences may result in disciplinary action.\n8.",
+            "Company Work From Home Policy\n\n1. Employees can request work from home with manager approval.\n\n2. Work from home requests must be submitted in advance.\n\n3. Employees must remain available during standard working hours.\n\n4. Employees must attend scheduled online meetings.\n\n5. Employees must maintain productivity while working remotely.\n\n6. Company data must be accessed only through approved systems.\n\n7. Employees must follow company security guidelines while working from home.\n8.",
+            ".\n\n7. Employees must follow company security guidelines while working from home.\n8.",
+            "Company Holiday Policy\n\n1. The company provides 12 public holidays every year.\n\n2. The annual holiday calendar is published by the HR department.\n\n3. Employees are not required to work on official public holidays.\n\n4. If employees work on a public holiday, compensatory leave may be provided.\n\n5. Holiday calendar updates will be communicated through official email.\n\n6. Employees should check the HR portal for the latest holiday schedule.\n\n7. Regional holidays may vary depending on the office loca"
+        ],
+        "response": "The standard working hours are 10:00 AM to 6:00 PM.",
+        "reference": "The standard working hours are 10:00 AM to 6:00 PM.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9323071951,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+    },
+    {
+        "user_input": "How many public holidays are provided every year?",
+        "retrieved_contexts": [
+            "Company Holiday Policy\n\n1. The company provides 12 public holidays every year.\n\n2. The annual holiday calendar is published by the HR department.\n\n3. Employees are not required to work on official public holidays.\n\n4. If employees work on a public holiday, compensatory leave may be provided.\n\n5. Holiday calendar updates will be communicated through official email.\n\n6. Employees should check the HR portal for the latest holiday schedule.\n\n7. Regional holidays may vary depending on the office loca",
+            " portal for the latest holiday schedule.\n\n7. Regional holidays may vary depending on the office location.\n8.",
+            "Employee Benefits Policy\nEmployees receive 12 casual leaves per year.\nEmployees receive 10 sick leaves per year.\nEmployees receive 15 earned leaves per year.\nEmployees are eligible for company medical insurance.\nEmployees receive annual performance reviews.\nEligible employees can receive travel expense reimbursement.\nEmployees can request work from home with manager approval.\n",
+            "Company Leave Policy\n\n1. Employees are eligible for 12 casual leaves per year.\n\n2. Employees are eligible for 10 sick leaves per year.\n\n3. Employees are eligible for 15 earned leaves per year.\n\n4. Leave requests must be submitted to the reporting manager.\n\n5. Employees should apply for planned leave at least 3 days in advance.\n\n6. Unused casual leaves cannot be carried forward to the next year.\n\n7. Sick leave exceeding 2 consecutive days requires a medical certificate.\n"
+        ],
+        "response": "12",
+        "reference": "The company provides 12 public holidays every year.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0892058133,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+    },
+    {
+        "user_input": "Does the company provide medical insurance?",
+        "retrieved_contexts": [
+            "Company Medical Policy\n\n1. Employees are eligible for company medical insurance.\n\n2. Medical insurance covers eligible hospitalization expenses.\n\n3. Employees must submit medical claims with supporting bills.\n\n4. Medical reimbursement requests should be submitted to HR.\n\n5. Employees must provide valid medical documents for reimbursement.\n\n6. Medical insurance details are available through the HR department.\n\n7. Insurance coverage depends on the company policy.\n8.",
+            "department.\n\n7. Insurance coverage depends on the company policy.\n8.",
+            ". Sick leave exceeding 2 consecutive days requires a medical certificate.\n",
+            "Employee Benefits Policy\nEmployees receive 12 casual leaves per year.\nEmployees receive 10 sick leaves per year.\nEmployees receive 15 earned leaves per year.\nEmployees are eligible for company medical insurance.\nEmployees receive annual performance reviews.\nEligible employees can receive travel expense reimbursement.\nEmployees can request work from home with manager approval.\n"
+        ],
+        "response": "Yes, employees are eligible for company medical insurance.",
+        "reference": "Yes, employees are eligible for company medical insurance.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7053201802,
+        "context_precision": 0.75,
+        "context_recall": 1.0
+    },
+    {
+        "user_input": "What does the work from home policy require regarding manager approval?",
+        "retrieved_contexts": [
+            "Company Work From Home Policy\n\n1. Employees can request work from home with manager approval.\n\n2. Work from home requests must be submitted in advance.\n\n3. Employees must remain available during standard working hours.\n\n4. Employees must attend scheduled online meetings.\n\n5. Employees must maintain productivity while working remotely.\n\n6. Company data must be accessed only through approved systems.\n\n7. Employees must follow company security guidelines while working from home.\n8.",
+            ".\n\n7. Employees must follow company security guidelines while working from home.\n8.",
+            "Company Holiday Policy\n\n1. The company provides 12 public holidays every year.\n\n2. The annual holiday calendar is published by the HR department.\n\n3. Employees are not required to work on official public holidays.\n\n4. If employees work on a public holiday, compensatory leave may be provided.\n\n5. Holiday calendar updates will be communicated through official email.\n\n6. Employees should check the HR portal for the latest holiday schedule.\n\n7. Regional holidays may vary depending on the office loca",
+            "department.\n\n7. Insurance coverage depends on the company policy.\n8."
+        ],
+        "response": "Unable to generate answer.",
+        "reference": "Employees can request work from home with manager approval, and requests must be submitted in advance.",
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+    },
+    {
+        "user_input": "When are employees eligible for a salary review?",
+        "retrieved_contexts": [
+            "Company Salary Policy\n\n1. Employee salaries are paid on the last working day of every month.\n\n2. Salary is credited directly to the employee's registered bank account.\n\n3. Employees receive their salary slips through the HR portal.\n\n4. Salary deductions may apply for unpaid leave.\n\n5. Employees are eligible for an annual salary review.\n\n6. Performance and company policies are considered during salary revision.\n\n7. Salary-related questions should be directed to the HR department.\n8.",
+            "ary revision.\n\n7. Salary-related questions should be directed to the HR department.\n8.",
+            "Employee Benefits Policy\nEmployees receive 12 casual leaves per year.\nEmployees receive 10 sick leaves per year.\nEmployees receive 15 earned leaves per year.\nEmployees are eligible for company medical insurance.\nEmployees receive annual performance reviews.\nEligible employees can receive travel expense reimbursement.\nEmployees can request work from home with manager approval.\n",
+            "Company Leave Policy\n\n1. Employees are eligible for 12 casual leaves per year.\n\n2. Employees are eligible for 10 sick leaves per year.\n\n3. Employees are eligible for 15 earned leaves per year.\n\n4. Leave requests must be submitted to the reporting manager.\n\n5. Employees should apply for planned leave at least 3 days in advance.\n\n6. Unused casual leaves cannot be carried forward to the next year.\n\n7. Sick leave exceeding 2 consecutive days requires a medical certificate.\n"
+        ],
+        "response": "Unable to generate answer.",
+        "reference": "Employees are eligible for an annual salary review. Performance and company policies are considered during salary revision.",
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+    },
+    {
+        "user_input": "When are employee salaries paid every month?",
+        "retrieved_contexts": [
+            "Company Salary Policy\n\n1. Employee salaries are paid on the last working day of every month.\n\n2. Salary is credited directly to the employee's registered bank account.\n\n3. Employees receive their salary slips through the HR portal.\n\n4. Salary deductions may apply for unpaid leave.\n\n5. Employees are eligible for an annual salary review.\n\n6. Performance and company policies are considered during salary revision.\n\n7. Salary-related questions should be directed to the HR department.\n8.",
+            "ary revision.\n\n7. Salary-related questions should be directed to the HR department.\n8.",
+            "Company Holiday Policy\n\n1. The company provides 12 public holidays every year.\n\n2. The annual holiday calendar is published by the HR department.\n\n3. Employees are not required to work on official public holidays.\n\n4. If employees work on a public holiday, compensatory leave may be provided.\n\n5. Holiday calendar updates will be communicated through official email.\n\n6. Employees should check the HR portal for the latest holiday schedule.\n\n7. Regional holidays may vary depending on the office loca",
+            "Employee Benefits Policy\nEmployees receive 12 casual leaves per year.\nEmployees receive 10 sick leaves per year.\nEmployees receive 15 earned leaves per year.\nEmployees are eligible for company medical insurance.\nEmployees receive annual performance reviews.\nEligible employees can receive travel expense reimbursement.\nEmployees can request work from home with manager approval.\n"
+        ],
+        "response": "Employee salaries are paid on the last working day of every month.",
+        "reference": "Employee salaries are paid on the last working day of every month.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8900545779,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+    },
+    {
+        "user_input": "What healthcare benefits are available to employees?",
+        "retrieved_contexts": [
+            "Company Medical Policy\n\n1. Employees are eligible for company medical insurance.\n\n2. Medical insurance covers eligible hospitalization expenses.\n\n3. Employees must submit medical claims with supporting bills.\n\n4. Medical reimbursement requests should be submitted to HR.\n\n5. Employees must provide valid medical documents for reimbursement.\n\n6. Medical insurance details are available through the HR department.\n\n7. Insurance coverage depends on the company policy.\n8.",
+            "Employee Benefits Policy\nEmployees receive 12 casual leaves per year.\nEmployees receive 10 sick leaves per year.\nEmployees receive 15 earned leaves per year.\nEmployees are eligible for company medical insurance.\nEmployees receive annual performance reviews.\nEligible employees can receive travel expense reimbursement.\nEmployees can request work from home with manager approval.\n",
+            ". Sick leave exceeding 2 consecutive days requires a medical certificate.\n",
+            "department.\n\n7. Insurance coverage depends on the company policy.\n8."
+        ],
+        "response": "Employees are eligible for company medical insurance, which covers eligible hospitalization expenses.",
+        "reference": "Employees are eligible for medical insurance covering eligible hospitalization expenses, can submit medical reimbursement claims with supporting documents, and receive 10 sick leaves per year.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5631878182,
+        "context_precision": 0.5,
+        "context_recall": 1.0
+    },
+    {
+        "user_input": "What are the employee leave benefits and public holidays?",
+        "retrieved_contexts": [
+            "Employee Benefits Policy\nEmployees receive 12 casual leaves per year.\nEmployees receive 10 sick leaves per year.\nEmployees receive 15 earned leaves per year.\nEmployees are eligible for company medical insurance.\nEmployees receive annual performance reviews.\nEligible employees can receive travel expense reimbursement.\nEmployees can request work from home with manager approval.\n",
+            "Company Holiday Policy\n\n1. The company provides 12 public holidays every year.\n\n2. The annual holiday calendar is published by the HR department.\n\n3. Employees are not required to work on official public holidays.\n\n4. If employees work on a public holiday, compensatory leave may be provided.\n\n5. Holiday calendar updates will be communicated through official email.\n\n6. Employees should check the HR portal for the latest holiday schedule.\n\n7. Regional holidays may vary depending on the office loca",
+            "Company Leave Policy\n\n1. Employees are eligible for 12 casual leaves per year.\n\n2. Employees are eligible for 10 sick leaves per year.\n\n3. Employees are eligible for 15 earned leaves per year.\n\n4. Leave requests must be submitted to the reporting manager.\n\n5. Employees should apply for planned leave at least 3 days in advance.\n\n6. Unused casual leaves cannot be carried forward to the next year.\n\n7. Sick leave exceeding 2 consecutive days requires a medical certificate.\n",
+            ". Sick leave exceeding 2 consecutive days requires a medical certificate.\n"
+        ],
+        "response": "Unable to generate answer.",
+        "reference": "Employees receive 12 casual leaves, 10 sick leaves, and 12 public holidays per year.",
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.3333333333,
+        "context_recall": 1.0
+    },
+    {
+        "user_input": "What rules should employees follow when working from home and attending work?",
+        "retrieved_contexts": [
+            "Company Work From Home Policy\n\n1. Employees can request work from home with manager approval.\n\n2. Work from home requests must be submitted in advance.\n\n3. Employees must remain available during standard working hours.\n\n4. Employees must attend scheduled online meetings.\n\n5. Employees must maintain productivity while working remotely.\n\n6. Company data must be accessed only through approved systems.\n\n7. Employees must follow company security guidelines while working from home.\n8.",
+            ".\n\n7. Employees must follow company security guidelines while working from home.\n8.",
+            "Company Attendance Policy\n\n1. Employees must report to work by 10:00 AM.\n\n2. The standard working hours are 10:00 AM to 6:00 PM.\n\n3. Employees must mark their daily attendance using the company attendance system.\n\n4. Late arrivals must be informed to the reporting manager.\n\n5. Employees must complete their assigned working hours.\n\n6. Attendance corrections must be requested through the HR department.\n\n7. Repeated unauthorized absences may result in disciplinary action.\n8.",
+            "Company Holiday Policy\n\n1. The company provides 12 public holidays every year.\n\n2. The annual holiday calendar is published by the HR department.\n\n3. Employees are not required to work on official public holidays.\n\n4. If employees work on a public holiday, compensatory leave may be provided.\n\n5. Holiday calendar updates will be communicated through official email.\n\n6. Employees should check the HR portal for the latest holiday schedule.\n\n7. Regional holidays may vary depending on the office loca"
+        ],
+        "response": "Unable to generate answer.",
+        "reference": "Employees must remain available during standard working hours, attend scheduled online meetings, maintain productivity, and follow the attendance and remote-work guidelines.",
+        "faithfulness": 0.0,
+        "answer_relevancy": null,
+        "context_precision": null,
+        "context_recall": 1.0
+    },
+    {
+        "user_input": "What employee benefits are available related to medical insurance and sick leave?",
+        "retrieved_contexts": [
+            "Employee Benefits Policy\nEmployees receive 12 casual leaves per year.\nEmployees receive 10 sick leaves per year.\nEmployees receive 15 earned leaves per year.\nEmployees are eligible for company medical insurance.\nEmployees receive annual performance reviews.\nEligible employees can receive travel expense reimbursement.\nEmployees can request work from home with manager approval.\n",
+            ". Sick leave exceeding 2 consecutive days requires a medical certificate.\n",
+            "Company Medical Policy\n\n1. Employees are eligible for company medical insurance.\n\n2. Medical insurance covers eligible hospitalization expenses.\n\n3. Employees must submit medical claims with supporting bills.\n\n4. Medical reimbursement requests should be submitted to HR.\n\n5. Employees must provide valid medical documents for reimbursement.\n\n6. Medical insurance details are available through the HR department.\n\n7. Insurance coverage depends on the company policy.\n8.",
+            "Company Leave Policy\n\n1. Employees are eligible for 12 casual leaves per year.\n\n2. Employees are eligible for 10 sick leaves per year.\n\n3. Employees are eligible for 15 earned leaves per year.\n\n4. Leave requests must be submitted to the reporting manager.\n\n5. Employees should apply for planned leave at least 3 days in advance.\n\n6. Unused casual leaves cannot be carried forward to the next year.\n\n7. Sick leave exceeding 2 consecutive days requires a medical certificate.\n"
+        ],
+        "response": "Unable to generate answer.",
+        "reference": "Employees are eligible for company medical insurance and receive 10 sick leaves per year.",
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": null,
+        "context_recall": 1.0
+    },
+    {
+        "user_input": "What is the company's annual profit?",
+        "retrieved_contexts": [
+            "Company Salary Policy\n\n1. Employee salaries are paid on the last working day of every month.\n\n2. Salary is credited directly to the employee's registered bank account.\n\n3. Employees receive their salary slips through the HR portal.\n\n4. Salary deductions may apply for unpaid leave.\n\n5. Employees are eligible for an annual salary review.\n\n6. Performance and company policies are considered during salary revision.\n\n7. Salary-related questions should be directed to the HR department.\n8.",
+            "Employee Benefits Policy\nEmployees receive 12 casual leaves per year.\nEmployees receive 10 sick leaves per year.\nEmployees receive 15 earned leaves per year.\nEmployees are eligible for company medical insurance.\nEmployees receive annual performance reviews.\nEligible employees can receive travel expense reimbursement.\nEmployees can request work from home with manager approval.\n",
+            "department.\n\n7. Insurance coverage depends on the company policy.\n8.",
+            "ow company cybersecurity guidelines.\n"
+        ],
+        "response": "The information is not available in the provided documents.",
+        "reference": "Not available in the provided documents.",
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": null,
+        "context_recall": null
+    },
+    {
+        "user_input": "Who is the company CEO?",
+        "retrieved_contexts": [
+            "ow company cybersecurity guidelines.\n",
+            "Company Data Security Policy\nEmployees must keep company information confidential.\nEmployees must use strong passwords for company accounts.\nPasswords must not be shared with other employees.\nCompany data must only be accessed through approved systems.\nEmployees must not share confidential files with unauthorized persons.\nLost company devices must be reported immediately to IT.\nEmployees must follow company cybersecurity guidelines.\n",
+            "Company Salary Policy\n\n1. Employee salaries are paid on the last working day of every month.\n\n2. Salary is credited directly to the employee's registered bank account.\n\n3. Employees receive their salary slips through the HR portal.\n\n4. Salary deductions may apply for unpaid leave.\n\n5. Employees are eligible for an annual salary review.\n\n6. Performance and company policies are considered during salary revision.\n\n7. Salary-related questions should be directed to the HR department.\n8.",
+            "department.\n\n7. Insurance coverage depends on the company policy.\n8."
+        ],
+        "response": "The information is not available in the provided documents.",
+        "reference": "Not available in the provided documents.",
+        "faithfulness": null,
+        "answer_relevancy": null,
+        "context_precision": null,
+        "context_recall": null
+    },
+    {
+        "user_input": "What is the company's annual revenue?",
+        "retrieved_contexts": [
+            "Company Salary Policy\n\n1. Employee salaries are paid on the last working day of every month.\n\n2. Salary is credited directly to the employee's registered bank account.\n\n3. Employees receive their salary slips through the HR portal.\n\n4. Salary deductions may apply for unpaid leave.\n\n5. Employees are eligible for an annual salary review.\n\n6. Performance and company policies are considered during salary revision.\n\n7. Salary-related questions should be directed to the HR department.\n8.",
+            "Employee Benefits Policy\nEmployees receive 12 casual leaves per year.\nEmployees receive 10 sick leaves per year.\nEmployees receive 15 earned leaves per year.\nEmployees are eligible for company medical insurance.\nEmployees receive annual performance reviews.\nEligible employees can receive travel expense reimbursement.\nEmployees can request work from home with manager approval.\n",
+            "Company Holiday Policy\n\n1. The company provides 12 public holidays every year.\n\n2. The annual holiday calendar is published by the HR department.\n\n3. Employees are not required to work on official public holidays.\n\n4. If employees work on a public holiday, compensatory leave may be provided.\n\n5. Holiday calendar updates will be communicated through official email.\n\n6. Employees should check the HR portal for the latest holiday schedule.\n\n7. Regional holidays may vary depending on the office loca",
+            "department.\n\n7. Insurance coverage depends on the company policy.\n8."
+        ],
+        "response": "Unable to generate answer.",
+        "reference": "Not available in the provided documents.",
+        "faithfulness": null,
+        "answer_relevancy": null,
+        "context_precision": null,
+        "context_recall": null
+    }
+]

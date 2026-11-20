@@ -1,0 +1,12 @@
+{
+    "before_metrics": {
+        "faithfulness": 0.7666666666666667,
+        "answer_relevancy": 0.6284897188774115,
+        "context_precision": 0.8888888888211111,
+        "context_recall": 1.0
+    },
+    "target_faithfulness": 0.85,
+    "faithfulness_target_met": false,
+    "fix_applied": "Extract actual text from PDF and TXT source documents instead of reading PDF files as UTF-8 text.",
+    "note": "These are current evaluation scores. A separate post-fix evaluation is required to calculate genuine after metrics."
+}

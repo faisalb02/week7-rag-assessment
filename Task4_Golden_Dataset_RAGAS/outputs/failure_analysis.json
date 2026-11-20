@@ -1,0 +1,17 @@
+[
+    {
+        "question": "What is the company's annual profit?",
+        "faithfulness": 0.0,
+        "failure_type": "Retrieval Failure"
+    },
+    {
+        "question": "Who is the company CEO?",
+        "faithfulness": 0.0,
+        "failure_type": "Generation Failure"
+    },
+    {
+        "question": "What is the company's annual revenue?",
+        "faithfulness": 0.0,
+        "failure_type": "Generation Failure"
+    }
+]

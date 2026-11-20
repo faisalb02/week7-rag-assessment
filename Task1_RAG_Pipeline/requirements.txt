@@ -1,0 +1,12 @@
+sentence-transformers
+qdrant-client
+pypdf
+python-dotenv
+openai
+tiktoken
+rank-bm25
+fastapi
+uvicorn
+ragas
+datasets
+reportlab
